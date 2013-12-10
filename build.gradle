@@ -578,7 +578,8 @@ project(':projects:copper-monitoring:copper-monitoring-example') {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.7'
+    gradleVersion = '1.9'
+    distributionUrl= 'http://services.gradle.org/distributions/gradle-1.9-all.zip'
 }
 
 
